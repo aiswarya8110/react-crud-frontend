@@ -1,0 +1,28 @@
+.header .title{
+    text-align: center;
+}
+
+.menu-items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.menu-items li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.link-active{
+    font-weight: 600;
+}
+
+.link-inactive{
+    font-weight: 300;
+}
