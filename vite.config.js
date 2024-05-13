@@ -7,8 +7,8 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
-        changeOrigin: false
+        target: 'https://react-crud-backend-iyds.onrender.com',
+        changeOrigin: true
       }
     }
   }
