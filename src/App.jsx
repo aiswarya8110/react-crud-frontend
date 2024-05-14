@@ -12,6 +12,7 @@ import AddMovie from './components/add-movie/AddMovie';
 import Login from './components/login/Login';
 import ProtectedRoute from './components/protected-routes/ProtectedRoute';
 import useLocalStorage from './custom-hooks/useLocalStorage';
+import Register from './components/register/Register';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <Login />
+      },
+      {
+        path: 'register',
+        element: <Register />
       }
     ],
     errorElement: <ErrorPage />
